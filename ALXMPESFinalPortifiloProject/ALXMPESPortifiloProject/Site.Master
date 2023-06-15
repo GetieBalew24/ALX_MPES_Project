@@ -1,0 +1,119 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ALX_MPES_Portifilo_Project.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - ALX MPES</title>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="assets/css/MPES.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+         <%--MPES system name--%>
+        <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" runat="server" href="~/"><span><img alt="logo" src="images/logo.png" height="30" />Mentors Performance Evaluation System</span></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Toggle navigation" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+           
+        </nav>
+       </div>
+        <%--MPES Menubars--%>
+        <div class="container">
+         <nav class="bg-nav">
+            <div class="date">
+                <a class="navbar-brand" runat="server" href="#">
+                    <asp:Label ID="lbldate" runat="server" Text="[date]"></asp:Label>
+                </a>
+            </div>
+            <div class="page">
+                <a class="navbar-brand" runat="server" href="#">
+                    <asp:Label ID="lblpage" runat="server" Text="[page]"></asp:Label>
+                </a>
+            </div>
+            <div class="log">
+                <a class="navbar-brand" runat="server" href="ManageProfile">
+                    <asp:Label ID="lbluser" runat="server" Text="[username]"></asp:Label></a>
+                &nbsp; <a class="navbar-brand" runat="server" href="Logout">
+                    <asp:Label ID="logout" runat="server"  Text="[logout]"></asp:Label></a>
+                &nbsp;<a class="navbar-brand" runat="server" href="Login"><asp:Label ID="login" runat="server" Text="[login]"></asp:Label></a>
+                &nbsp;&nbsp;
+            </div>
+        </nav>
+            </div>
+        <%--MPES Middle content--%>
+        <div class="container">
+            <nav class="mid">
+            <div class="left">
+                <a class="navbar-brand menu" runat="server" href="#">
+                    <asp:Label ID="lblmenu" runat="server" Text="[Menu]"></asp:Label>
+                </a>
+                <hr />
+                <asp:TreeView ID="TreeView1" runat="server" ImageSet="XPFileExplorer" NodeIndent="15" LineImagesFolder="~/TreeLineImages" ShowLines="True">
+                    <HoverNodeStyle Font-Underline="True" ForeColor="#6666AA" />
+                    <NodeStyle Font-Names="Tahoma" Font-Size="8pt" ForeColor="Black" HorizontalPadding="2px" NodeSpacing="0px" VerticalPadding="2px" />
+                    <ParentNodeStyle Font-Bold="False" />
+                    <SelectedNodeStyle BackColor="#B5B5B5" Font-Underline="False" HorizontalPadding="0px" VerticalPadding="0px" />
+                </asp:TreeView>
+                <br />
+                <br />
+            </div>
+                </nav>
+            <nav class="mid">
+           <div class="middle">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+           </div>
+        </nav>
+            </div>
+        <%--Footer content--%>
+       
+        <div class="container">
+       <nav class="bottom">
+           
+        <div class="center">
+             <hr />
+           
+            <footer>
+                <hr />
+               <p>&copy; all rights are reserved for developers &middot;</p>
+            </footer>
+        </div>
+       </nav>
+            </div>
+    </form>
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/Scripts/bootstrap.js") %>
+    </asp:PlaceHolder>
+</body>

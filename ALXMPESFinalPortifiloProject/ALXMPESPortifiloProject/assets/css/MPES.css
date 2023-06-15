@@ -1,0 +1,73 @@
+﻿body {
+}
+
+.bg-top {
+    background-color: cornflowerblue;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+.bg-nav {
+    background-color: lightgray;
+    height: 25px;
+}
+
+.mid {
+    background-color: white;
+    height: auto;
+}
+
+.date {
+    float: left;
+    width: 25%;
+}
+
+.page {
+    float: left;
+    text-align: left;
+    width: 30%;
+    position: relative;
+}
+
+.log {
+    float: right;
+    text-align: right;
+    position: relative;
+    width: 30%;
+}
+
+
+.left {
+    float: left;
+    width: 20%;
+    height: auto;
+    border: 1px black;
+}
+
+.middle {
+    float: left;
+    text-align: left;
+    width: 80%;
+    height: auto;
+    position: relative;
+    border: 1px solid white;
+}
+.footer {
+    text-align: center;
+    height: auto;
+}
+.bottom
+{
+
+}
+
+.footer {
+    float: left;
+    width: auto;
+}
+.menu{
+    font-size:24px; 
+    background-color:dodgerblue;
+}

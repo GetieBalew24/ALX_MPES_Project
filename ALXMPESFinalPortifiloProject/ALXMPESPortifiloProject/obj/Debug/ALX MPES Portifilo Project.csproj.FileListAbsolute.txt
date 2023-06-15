@@ -1,0 +1,175 @@
+E:\ALX MPES Portifilo Project\bin\ALX MPES Portifilo Project.dll.config
+E:\ALX MPES Portifilo Project\bin\ALX MPES Portifilo Project.dll
+E:\ALX MPES Portifilo Project\bin\ALX MPES Portifilo Project.pdb
+E:\ALX MPES Portifilo Project\bin\roslyn\csc.exe
+E:\ALX MPES Portifilo Project\bin\roslyn\csc.exe.config
+E:\ALX MPES Portifilo Project\bin\roslyn\csc.rsp
+E:\ALX MPES Portifilo Project\bin\roslyn\csi.exe
+E:\ALX MPES Portifilo Project\bin\roslyn\csi.exe.config
+E:\ALX MPES Portifilo Project\bin\roslyn\csi.rsp
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ALX MPES Portifilo Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.AppContext.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Collections.Immutable.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Console.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Globalization.Calendars.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.IO.Compression.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.IO.FileSystem.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Net.Http.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Net.Sockets.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.ValueTuple.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Xml.XPath.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ALX MPES Portifilo Project\bin\roslyn\vbc.exe
+E:\ALX MPES Portifilo Project\bin\roslyn\vbc.exe.config
+E:\ALX MPES Portifilo Project\bin\roslyn\vbc.rsp
+E:\ALX MPES Portifilo Project\bin\roslyn\VBCSCompiler.exe
+E:\ALX MPES Portifilo Project\bin\roslyn\VBCSCompiler.exe.config
+E:\ALX MPES Portifilo Project\bin\Antlr3.Runtime.dll
+E:\ALX MPES Portifilo Project\bin\AspNet.ScriptManager.jQuery.dll
+E:\ALX MPES Portifilo Project\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ALX MPES Portifilo Project\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ALX MPES Portifilo Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ALX MPES Portifilo Project\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ALX MPES Portifilo Project\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ALX MPES Portifilo Project\bin\Microsoft.Web.Infrastructure.dll
+E:\ALX MPES Portifilo Project\bin\Newtonsoft.Json.dll
+E:\ALX MPES Portifilo Project\bin\System.Web.Optimization.dll
+E:\ALX MPES Portifilo Project\bin\WebGrease.dll
+E:\ALX MPES Portifilo Project\bin\System.Web.Optimization.xml
+E:\ALX MPES Portifilo Project\bin\Newtonsoft.Json.xml
+E:\ALX MPES Portifilo Project\bin\Antlr3.Runtime.pdb
+E:\ALX MPES Portifilo Project\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ALX MPES Portifilo Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.csproj.AssemblyReference.cache
+E:\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.csproj.CoreCompileInputs.cache
+E:\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.csproj.CopyComplete
+E:\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.dll
+E:\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.pdb
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX MPES Portifilo Project.dll.config
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX MPES Portifilo Project.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX MPES Portifilo Project.pdb
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\csc.exe
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\csc.exe.config
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\csc.rsp
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\csi.exe
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\csi.exe.config
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\csi.rsp
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.Managed.Core.targets
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.AppContext.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Collections.Immutable.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Console.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Globalization.Calendars.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.IO.Compression.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.IO.FileSystem.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Net.Http.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Net.Sockets.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.ValueTuple.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Xml.XmlDocument.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Xml.XPath.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\vbc.exe
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\vbc.exe.config
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\vbc.rsp
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\VBCSCompiler.exe
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\roslyn\VBCSCompiler.exe.config
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX_MPES_BLL.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX_MPES_BOL.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Antlr3.Runtime.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\AspNet.ScriptManager.jQuery.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.ScriptManager.WebForms.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.Web.Infrastructure.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Newtonsoft.Json.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\System.Web.Optimization.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Adomd.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Cache.Database.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Cache.StackExchangeRedis.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Data.Schema.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.JsonSerialization.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.OpenXmlRendering.2.7.2.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.OpenXmlRendering.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Service.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Services.HttpClient.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Services.ServiceStack.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.Services.WebApi.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.WebServiceDataSource.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Reporting.XpsRendering.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.ReportViewer.Html5.WebForms.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.ReportViewer.Mvc.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.ReportViewer.Silverlight.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.ReportViewer.WebForms.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.ReportViewer.WinForms.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.ReportViewer.Wpf.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.ReportViewer.Wpf.Themes.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Telerik.Web.UI.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\WebGrease.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX_MPES_BLL.pdb
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX_MPES_BLL.dll.config
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX_MPES_BOL.pdb
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\ALX_MPES_BOL.dll.config
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\System.Web.Optimization.xml
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Newtonsoft.Json.xml
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Antlr3.Runtime.pdb
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.csproj.AssemblyReference.cache
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.dll.licenses
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.csproj.CoreCompileInputs.cache
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.csproj.CopyComplete
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.dll
+E:\ALX MPES Final Portifilo Project\ALX MPES Portifilo Project\obj\Debug\ALX MPES Portifilo Project.pdb
