@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ALX_MPES" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Table Name="dbo.TBL_Account" Member="TBL_Accounts">
+    <Type Name="TBL_Account">
+      <Column Name="User_ID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Last_Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Department" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Account_status" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Created_Date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Created_by" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Role" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TBL_Account_TBL_UsermenuRole" Member="TBL_UsermenuRoles" ThisKey="Username" OtherKey="Username" Type="TBL_UsermenuRole" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Criteria" Member="TBL_Criterias">
+    <Type Name="TBL_Criteria">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="CriteriaID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CriteriaName" Type="System.String" DbType="NVarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="CreatedDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Createdtime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="Createdby" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Modifiedby" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Modifieddate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="Modifiedtime" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="modstatus" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Departement" Member="TBL_Departements">
+    <Type Name="TBL_Departement">
+      <Column Name="Dept_code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Dept_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Evaluation_Data" Member="TBL_Evaluation_Datas">
+    <Type Name="TBL_Evaluation_Data">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mentor_id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="evaluator_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="evaluation_date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="CriteriaID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Criteria_result" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Acc_year" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Evaluation_Result" Member="TBL_Evaluation_Results">
+    <Type Name="TBL_Evaluation_Result">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mentor_ID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="evaluator_id" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="result" Type="System.Single" DbType="Real" CanBeNull="true" />
+      <Association Name="TBL_Mentor_TBL_Evaluation_Result" Member="TBL_Mentor" ThisKey="mentor_ID" OtherKey="mentor_id" Type="TBL_Mentor" IsForeignKey="true" />
+      <Association Name="TBL_Student_TBL_Evaluation_Result" Member="TBL_Student" ThisKey="evaluator_id" OtherKey="StudID" Type="TBL_Student" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_EvaluationCriteria_catagory" Member="TBL_EvaluationCriteria_catagories">
+    <Type Name="TBL_EvaluationCriteria_catagory">
+      <Column Name="CriteriaID" Type="System.String" DbType="NVarChar(200) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CriteriaName" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Mentor" Member="TBL_Mentors">
+    <Type Name="TBL_Mentor">
+      <Column Name="mentor_id" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="first_name" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="middle_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="last_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="departement" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="specialization" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Reg_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TBL_Mentor_TBL_Evaluation_Result" Member="TBL_Evaluation_Results" ThisKey="mentor_id" OtherKey="mentor_ID" Type="TBL_Evaluation_Result" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Mentor_evaluation_Result" Member="TBL_Mentor_evaluation_Results">
+    <Type Name="TBL_Mentor_evaluation_Result">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mentor_name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Totalresult" Type="System.Single" DbType="Real" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Menu" Member="TBL_Menus">
+    <Type Name="TBL_Menu">
+      <Column Name="MenuId" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ParentMenu" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MenuName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Link" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_Student" Member="TBL_Students">
+    <Type Name="TBL_Student">
+      <Column Name="StudID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Middle_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Last_Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Cohort" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sex" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Nationality" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Dept_code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Acadmic_year" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Registration_Date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TBL_Student_TBL_Evaluation_Result" Member="TBL_Evaluation_Results" ThisKey="StudID" OtherKey="evaluator_id" Type="TBL_Evaluation_Result" />
+      <Association Name="TBL_Student_TBL_Student" Member="TBL_Student2" ThisKey="StudID" OtherKey="StudID" Type="TBL_Student" Cardinality="One" />
+      <Association Name="TBL_Student_TBL_Student" Member="TBL_Student1" ThisKey="StudID" OtherKey="StudID" Type="TBL_Student" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TBL_UsermenuRole" Member="TBL_UsermenuRoles">
+    <Type Name="TBL_UsermenuRole">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="MenuId" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Assignedby" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="date" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Association Name="TBL_Account_TBL_UsermenuRole" Member="TBL_Account" ThisKey="Username" OtherKey="Username" Type="TBL_Account" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Function Name="dbo.addevaluationCriteria" Method="addevaluationCriteria">
+    <Parameter Name="CriteriaID" Parameter="criteriaID" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CriteriaName" Parameter="criteriaName" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Createdby" Parameter="createdby" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.addevaluationdata" Method="addevaluationdata">
+    <Parameter Name="mentorID" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="evaluatorid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="criteriaid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="criteriaresult" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.addevaulationresult" Method="addevaulationresult">
+    <Parameter Name="mentorid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="evaluatorid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="result" Type="System.Double" DbType="Float" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.averageresult" Method="averageresult">
+    <Parameter Name="mentorname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Average_result" Parameter="average_result" Type="System.Single" DbType="Real" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.createaccount" Method="createaccount">
+    <Parameter Name="userid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="fname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="lname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="email" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="dept" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="username" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="password" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="astatus" Type="System.Int32" DbType="Int" />
+    <Parameter Name="createdby" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="role" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.createaccount" Method="createaccount1">
+    <Parameter Name="userid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="fname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="lname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="email" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="dept" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="username" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="password" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="astatus" Type="System.Int32" DbType="Int" />
+    <Parameter Name="createdby" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="role" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.AddMenu" Method="AddMenu">
+    <Parameter Name="menuid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="parentmenu" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="menuname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="link" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.AssignRole" Method="AssignRole">
+    <Parameter Name="uname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="menuid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="status" Type="System.Int32" DbType="Int" />
+    <Parameter Name="assignedby" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="date" Type="System.DateTime" DbType="Date" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.registermentor" Method="registermentor">
+    <Parameter Name="mid" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="mfname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="mmname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="mlname" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="email" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="dept" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="special" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.AddDept" Method="AddDept">
+    <Parameter Name="deptcode" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="deptname" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.updatepassword" Method="updatepassword">
+    <Parameter Name="password" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="username" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
